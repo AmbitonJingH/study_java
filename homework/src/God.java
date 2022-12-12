@@ -11,7 +11,6 @@ public class God {
         p.setHometown("美国俄亥俄州阿克伦");
         p.setHabit("右手");
 
-
         System.out.println(p.getName());
         System.out.println(p.getNum());
         System.out.print(p.getHeight());

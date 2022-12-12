@@ -62,7 +62,6 @@ public class player {
             return weight;
         }
 
-
         public void setWeight(float weight) {
             this.weight = weight;
         }
