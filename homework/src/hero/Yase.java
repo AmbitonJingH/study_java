@@ -99,4 +99,5 @@ public class Yase {
         System.out.println(this.name+"平A");
         System.out.println("*************************************");
     }
+
 }
