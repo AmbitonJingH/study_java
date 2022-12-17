@@ -1,14 +1,16 @@
+package player;
+import tool.Calculator;
 public class player {
 
-        public String name;//姓名
-        public int age;//年龄
-        public int num;//球衣号码
-        public String qiuDui;//所效力的球队
-        public String position;//场上位置
-        public float height;//身高
-        public float weight;//体重
-        public String homeTown;//家乡
-        public String habit;//惯用手
+        private String name;//姓名
+        private int age;//年龄
+        private int num;//球衣号码
+        private String qiuDui;//所效力的球队
+        private String position;//场上位置
+        private float height;//身高
+        private float weight;//体重
+        private String homeTown;//家乡
+        private String habit;//惯用手
 
         public String getName() {
             return name;
@@ -96,9 +98,17 @@ public class player {
         public void passBall(){
             System.out.println("传球");
         }
+        public void useCalcu(){
+            //创建一个计算器
+        Calculator a = new Calculator(1,2,3,4);
+        //使用某种方法
+        a.add();
+        a.sub();
+        a.mul();
+        a.div();
+    }
         public static void main(String[] args) {
 
         }
-
 
 }

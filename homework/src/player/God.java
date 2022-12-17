@@ -1,3 +1,8 @@
+package player;
+
+import player.player;
+import tool.Calculator;
+
 public class God {
     public static void main(String[] args) {
         player p = new player();
@@ -11,7 +16,7 @@ public class God {
         p.setHometown("美国俄亥俄州阿克伦");
         p.setHabit("右手");
 
-        System.out.println(p.getName());
+      /*  System.out.println(p.getName());
         System.out.println(p.getNum());
         System.out.print(p.getHeight());
         System.out.println("cm");
@@ -19,9 +24,9 @@ public class God {
         System.out.println("kg");
         System.out.println(p.getAge());
         System.out.println(p.getQiuDui());
-
         p.passBall();
         p.dunk();
-        p.shoot();
+        p.shoot();*/
+        p.useCalcu();
     }
 }
